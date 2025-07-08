@@ -4,7 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- SEO Meta Tags for "Organic Dog Food" -->
+     <link
+      rel="icon"
+      href="./dogLogo.jpg"
+      type="image/x-icon"
+
+    />
     <title>Organic Dog Food - Healthy, Natural Nutrition for Your Pet</title>
+    <link
+      rel="stylesheet"
+      href="./style.css"
+    />
     <meta
       name="description"
       content="Discover the best organic dog food made from natural, non-GMO ingredients. Give your dog the nutrition they deserve with our top-rated organic brands."
@@ -47,7 +57,98 @@
       name="twitter:image"
       content="https://www.example.com/images/organic-dog-food.jpg"
     />
+  </head>
+  <body>
+    <header id="home">
+      <h1>Organic Dog Food Blog</h1>
+      <p>Healthy Choices for Your Furry Friend</p>
+    </header>
 
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#recipe">Recipes</a>
+      <a href="./pages/NutritionTips.html">Nutrition Tips</a>
+      <a href="./pages/About.html">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+      <div class="post">
+      <h2>Why Choose Organic Dog Food?</h2>
+      <img src="https://images.unsplash.com/photo-1608408891486-f5cade977d19?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Organic dog food in a bowl" style="max-width:100%;height:auto;">
+      <p>
+        Organic dog food is made with natural ingredients, free from
+        pesticides, preservatives, and artificial additives. It promotes a
+        healthy coat, better digestion, and overall well-being.
+      </p>
+      </div>
+
+      <div class="post">
+      <h2>Top 5 Organic Ingredients for Homemade Dog Food</h2>
+      <img src="https://media.istockphoto.com/id/1350021600/photo/dry-dog-vegan-vegetarian-food-concept-raw-vegetables-and-green-near-bowl-with-pet-feed.jpg?s=1024x1024&w=is&k=20&c=qEE1i-Dh2pU5mRm7T-DzFDVChSq5U2DfoMpCuSLGM44=" alt="Fresh organic ingredients for dog food" style="max-width:100%;height:auto;">
+      <ul>
+        <li>Organic chicken or turkey</li>
+        <li>Brown rice or quinoa</li>
+        <li>Carrots and sweet potatoes</li>
+        <li>Spinach and kale</li>
+        <li>Omega-rich fish oils</li>
+      </ul>
+      </div>
+
+      <div class="post" id="recipe">
+      <div>
+        <h2>Dog Food Recipe 1</h2>
+        <img src="https://media.istockphoto.com/id/1320774197/photo/pet-food-and-natural-ingredients-on-wooden-table-flat-lay.jpg?s=1024x1024&w=is&k=20&c=ti8RV5OgT1qu4Io7rSx9yZFTlg_on2qifMvo9BDYPp8=" alt="Homemade turkey and rice dog food" style="max-width:100%;height:auto;">
+        <p>
+        Mix cooked organic ground turkey, brown rice, and steamed vegetables
+        like carrots and peas. Add a spoon of fish oil for a nutritious, tasty
+        meal.
+        </p>
+        <p>
+        Serve this meal warm, and watch your dog enjoy every bite!
+        </p>
+      </div>
+      <div>
+        <h2>Dog Food Recipe 2</h2>
+        <img src="https://media.istockphoto.com/id/1320774197/photo/pet-food-and-natural-ingredients-on-wooden-table-flat-lay.jpg?s=1024x1024&w=is&k=20&c=ti8RV5OgT1qu4Io7rSx9yZFTlg_on2qifMvo9BDYPp8=" alt="Homemade turkey and rice dog food" style="max-width:100%;height:auto;">
+        <p>
+        Combine cooked organic chicken, sweet potatoes, and green beans.
+        Add a dash of turmeric for anti-inflammatory benefits.
+        </p>
+        <p>
+        Your dog will love this hearty and healthy meal!
+        </p>
+      </div>
+      <div>
+        <h2>Dog Food Recipe 3</h2>
+        <img src="https://media.istockphoto.com/id/1320774197/photo/pet-food-and-natural-ingredients-on-wooden-table-flat-lay.jpg?s=1024x1024&w=is&k=20&c=ti8RV5OgT1qu4Io7rSx9yZFTlg_on2qifMvo9BDYPp8=" alt="Homemade turkey and rice dog food" style="max-width:100%;height:auto;">
+        <p>
+        Mix cooked organic beef, barley, and a variety of vegetables like
+        peas and carrots. This hearty meal is packed with protein and
+        nutrients.
+        </p>
+        <p>
+        Your dog will love this delicious and nutritious meal!
+        </p>
+      </div>
+      </div>
+      <div class="post" id="contact">
+      <h2>Contact Us</h2>
+      <p>
+        We are here to help you with any questions or concerns about organic
+        dog food. Whether you need advice on choosing the right food or have
+        specific dietary needs for your pet, feel free to reach out.
+      </p>
+      <p>
+        Have questions or suggestions? We'd love to hear from you! Reach out
+        via email at <a href="mailto:info@example.com">info@example.com</a>.
+      </p>
+      </div>
+
+    <footer>
+      <p>&copy; 2025 Organic Dog Food Blog. All rights reserved.</p>
+    </footer>
+    
     <!-- Schema.org JSON-LD Structured Data -->
     <script type="application/ld+json">
       {
@@ -69,103 +170,5 @@
         }
       }
     </script>
-    <style>
-      body {
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        margin: 0;
-        background-color: #f4f9f4;
-        color: #333;
-      }
-      header {
-        background-color: #6ab04c;
-        color: white;
-        padding: 2rem 1rem;
-        text-align: center;
-      }
-      nav {
-        background-color: #82ccdd;
-        padding: 1rem;
-        text-align: center;
-      }
-      nav a {
-        margin: 0 15px;
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-      }
-      nav a:hover {
-        text-decoration: underline;
-      }
-      .container {
-        padding: 2rem;
-        max-width: 800px;
-        margin: auto;
-      }
-      .post {
-        background-color: white;
-        padding: 1.5rem;
-        margin-bottom: 2rem;
-        border-radius: 8px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      }
-      .post h2 {
-        color: #6ab04c;
-      }
-      footer {
-        text-align: center;
-        padding: 2rem 1rem;
-        background-color: #dff9fb;
-        margin-top: 2rem;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1>Organic Dog Food Blog</h1>
-      <p>Healthy Choices for Your Furry Friend</p>
-    </header>
-
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Recipes</a>
-      <a href="#">Nutrition Tips</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-    </nav>
-
-    <div class="container">
-      <div class="post">
-        <h2>Why Choose Organic Dog Food?</h2>
-        <p>
-          Organic dog food is made with natural ingredients, free from
-          pesticides, preservatives, and artificial additives. It promotes a
-          healthy coat, better digestion, and overall well-being.
-        </p>
-      </div>
-
-      <div class="post">
-        <h2>Top 5 Organic Ingredients for Homemade Dog Food</h2>
-        <ul>
-          <li>Organic chicken or turkey</li>
-          <li>Brown rice or quinoa</li>
-          <li>Carrots and sweet potatoes</li>
-          <li>Spinach and kale</li>
-          <li>Omega-rich fish oils</li>
-        </ul>
-      </div>
-
-      <div class="post">
-        <h2>Simple Organic Dog Food Recipe</h2>
-        <p>
-          Mix cooked organic ground turkey, brown rice, and steamed vegetables
-          like carrots and peas. Add a spoon of fish oil for a nutritious, tasty
-          meal.
-        </p>
-      </div>
-    </div>
-
-    <footer>
-      <p>&copy; 2025 Organic Dog Food Blog. All rights reserved.</p>
-    </footer>
   </body>
 </html>
